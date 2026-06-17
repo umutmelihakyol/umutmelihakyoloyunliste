@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oyun Önerilerim - Umut A.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#070b14;--panel:#0c1320;--panel2:#111a2b;--stroke:#1f3552;--stroke2:#2b4c74;--text:#f3f7ff;--muted:#9aa8bd;--soft:#6f7d93;--cyan:#00d9ff;--blue:#2d8cff;--purple:#8d5bff;--green:#22e07a;--gold:#ffd43b;--red:#ff4f6d;--shadow:0 16px 48px rgba(0,0,0,.42);--glow:0 0 26px rgba(0,217,255,.14)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}body{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(circle at 50% -10%,rgba(45,140,255,.13),transparent 38%),radial-gradient(circle at 10% 90%,rgba(141,91,255,.09),transparent 32%),var(--bg);color:var(--text);min-height:100vh;overflow-x:hidden}body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);background-size:42px 42px;mask-image:linear-gradient(to bottom,transparent,black 10%,black 85%,transparent);pointer-events:none}button,input,select{font:inherit}button{cursor:pointer}a{color:inherit}::-webkit-scrollbar{width:8px;height:8px}::-webkit-scrollbar-track{background:#050811}::-webkit-scrollbar-thumb{background:#213a57;border-radius:8px}
+.app{display:grid;grid-template-columns:250px minmax(0,1fr);min-height:100vh}.sidebar{position:sticky;top:0;height:100vh;border-right:1px solid rgba(43,76,116,.55);background:linear-gradient(180deg,#07101d 0%,#050a12 100%);backdrop-filter:blur(18px);padding:14px 10px;display:flex;flex-direction:column;gap:18px;overflow-y:auto}.brand{display:flex;align-items:center;gap:12px;padding:0 2px 18px;border-bottom:1px solid rgba(43,76,116,.38)}.logo-cube{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;background:linear-gradient(135deg,var(--blue),var(--purple));box-shadow:0 0 22px rgba(45,140,255,.35);font-weight:900;font-size:.85rem}.brand span{font-weight:900;font-size:1.05rem;letter-spacing:0}.brand b{color:var(--cyan)}.side-title{font-size:.64rem;font-weight:800;color:var(--soft);letter-spacing:.12em;text-transform:uppercase;margin:6px 2px 8px}.nav-list{display:grid;gap:3px}.nav-item{display:flex;align-items:center;gap:10px;color:#c7d2e4;text-decoration:none;padding:8px 9px;border-radius:7px;font-size:.78rem;font-weight:650;transition:.18s;border:0;background:transparent;width:100%;text-align:left}.nav-item:hover,.nav-item.active{background:linear-gradient(90deg,rgba(45,140,255,.20),rgba(45,140,255,.07));color:#fff}.nav-item.active{box-shadow:inset 3px 0 0 var(--blue)}.nav-icon{width:17px;text-align:center;color:#d9e5f7;font-size:.86rem}.nav-text{flex:1;min-width:0}.nav-count{margin-left:auto;font-family:'JetBrains Mono';font-size:.64rem;font-weight:900;color:#dce9ff;background:#172234;border:1px solid rgba(43,76,116,.58);border-radius:999px;padding:2px 7px;min-width:26px;text-align:center}
+.main{min-width:0;padding:18px 24px 34px}.topbar{display:grid;grid-template-columns:minmax(220px,520px) auto auto auto;gap:12px;align-items:center;margin-bottom:20px}.search-wrap{position:relative}.search-wrap input{width:100%;background:#09111e;border:1px solid var(--stroke);border-radius:12px;color:var(--text);padding:12px 44px;font-size:.92rem;outline:none;transition:.2s}.search-wrap input:focus{border-color:var(--cyan);box-shadow:var(--glow)}.search-ico{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--muted)}.kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);font-size:.72rem;color:var(--soft);border:1px solid var(--stroke);padding:3px 7px;border-radius:7px}.select-box{background:rgba(10,17,30,.72);border:1px solid var(--stroke);border-radius:12px;padding:8px 10px;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:.82rem}.select-box select{background:#08101d;border:1px solid var(--stroke);color:var(--text);border-radius:9px;padding:8px 10px;outline:none}.toggle{display:flex;align-items:center;gap:8px;color:#cbd7e8;background:rgba(10,17,30,.72);border:1px solid var(--stroke);border-radius:12px;padding:10px 12px;font-size:.82rem;font-weight:750;white-space:nowrap}.toggle input{accent-color:var(--cyan)}.action-btn,.back-btn,.steam-btn,.copy-btn,.detail-btn{border-radius:10px;border:1px solid rgba(0,217,255,.42);background:rgba(0,217,255,.1);color:#fff;padding:10px 12px;font-weight:850;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:7px}.action-btn{background:linear-gradient(135deg,var(--purple),var(--blue));border-color:rgba(141,91,255,.45);white-space:nowrap}.hero{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;margin:10px 0 18px}.hero h1{font-size:2.55rem;line-height:1.02;letter-spacing:0}.hero p{color:var(--muted);margin-top:8px;max-width:660px;line-height:1.6}.back-btn{background:#0b1424;border-color:var(--stroke2);color:#dce9fb;white-space:nowrap}
+.mobile-genres{display:none}.insight-grid{display:grid;grid-template-columns:1.35fr repeat(3,minmax(150px,1fr));gap:12px;margin:10px 0 18px}.insight{border:1px solid rgba(43,76,116,.58);background:linear-gradient(180deg,rgba(17,26,43,.94),rgba(11,17,29,.94));border-radius:14px;padding:14px;min-height:96px;box-shadow:0 8px 24px rgba(0,0,0,.18)}.insight small{display:block;color:var(--muted);font-size:.72rem;font-weight:850;text-transform:uppercase;letter-spacing:.08em;margin-bottom:7px}.insight b{display:block;font-size:1.24rem;line-height:1.25}.insight span{display:block;color:#cbd7e8;font-size:.82rem;line-height:1.5;margin-top:6px}.rec-info{color:var(--muted);font-size:.88rem;margin:4px 0 14px}.rec-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:15px}.rec-card{background:linear-gradient(180deg,rgba(17,26,43,.96),rgba(11,17,29,.96));border:1px solid rgba(43,76,116,.62);border-radius:14px;overflow:hidden;box-shadow:0 9px 22px rgba(0,0,0,.2);display:flex;flex-direction:column;min-height:100%}.rec-card:hover{border-color:rgba(0,217,255,.72);box-shadow:0 18px 36px rgba(0,0,0,.32),var(--glow);transform:translateY(-2px)}.rec-cover{height:138px;background:#0a1120;position:relative;overflow:hidden}.rec-cover img{width:100%;height:100%;object-fit:cover;display:block}.rec-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(8,12,20,.9),transparent 58%)}.rec-cover.missing::before{content:"Görsel Yok";position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-weight:800}.rec-score{position:absolute;top:9px;left:9px;z-index:2;font-family:'JetBrains Mono';font-size:.78rem;font-weight:900;color:#03101a;background:linear-gradient(135deg,var(--cyan),#7cf5ff);border-radius:8px;padding:5px 8px}.owned-badge{position:absolute;top:9px;right:9px;z-index:2;color:#03101a;background:linear-gradient(135deg,var(--green),#9cff6b);border-radius:999px;padding:5px 8px;font-size:.68rem;font-weight:900}.rec-body{padding:14px;display:flex;flex-direction:column;gap:10px;flex:1}.rec-title{font-size:1.05rem;font-weight:900;line-height:1.25}.rec-meta,.reason-list{display:flex;flex-wrap:wrap;gap:6px}.pill,.reason{font-size:.72rem;background:#12223a;color:#cdd9ea;border:1px solid #203855;border-radius:7px;padding:4px 7px;font-weight:700;line-height:1.2}.reason{background:rgba(0,217,255,.08);border-color:rgba(0,217,255,.24);color:#c9f7ff}.rec-note{color:#cbd7e8;font-size:.85rem;line-height:1.58;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}.rec-actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:auto}.steam-btn{color:#66c0f4;border-color:rgba(102,192,244,.42);background:rgba(102,192,244,.08)}.copy-btn,.detail-btn{font-size:.78rem;padding-left:8px;padding-right:8px}.empty{grid-column:1/-1;text-align:center;border:1px dashed var(--stroke);border-radius:16px;padding:48px;color:var(--muted);background:rgba(10,17,30,.34)}
+.modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.76);display:none;align-items:center;justify-content:center;z-index:999;padding:20px;backdrop-filter:blur(10px)}.modal-backdrop.open{display:flex}.modal{width:min(860px,96vw);max-height:92vh;overflow:auto;background:#0b1423;border:1px solid var(--stroke2);border-radius:18px;box-shadow:0 30px 100px rgba(0,0,0,.6)}.modal-cover{height:280px;position:relative;background:#111a2b}.modal-cover img{width:100%;height:100%;object-fit:cover}.modal-cover::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,#0b1423,transparent 60%)}.modal-close{position:absolute;right:14px;top:14px;z-index:3;background:rgba(0,0,0,.5);border:1px solid var(--stroke);color:white;border-radius:10px;padding:8px 11px}.modal-content{padding:20px}.modal-content h2{font-size:1.8rem;letter-spacing:0;margin-bottom:8px}.note-box{margin-top:14px;background:#101b2c;border:1px solid var(--stroke);border-radius:14px;padding:16px;color:#cfd9e9;line-height:1.75}.modal-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.toast{position:fixed;right:20px;bottom:20px;background:#0b1423;border:1px solid var(--stroke2);border-radius:12px;color:#fff;padding:12px 16px;box-shadow:0 20px 60px rgba(0,0,0,.45);display:none;z-index:9999}.toast.show{display:block}
+@media(max-width:1100px){.topbar{grid-template-columns:minmax(220px,1fr) auto}.select-box,.toggle,.action-btn{justify-self:start}.insight-grid{grid-template-columns:1fr 1fr}.hero{align-items:flex-start}.hero h1{font-size:2.15rem}}@media(max-width:850px){.app{display:block}.sidebar{display:none}.main{padding:14px}.topbar{grid-template-columns:1fr}.kbd{display:none}.hero{display:block}.back-btn{margin-top:14px}.mobile-genres{display:flex;gap:8px;overflow:auto;margin:0 -14px 16px;padding:0 14px 4px}.mobile-genres .nav-item{white-space:nowrap;width:auto;border:1px solid rgba(43,76,116,.5);background:#0a1424}.insight-grid{grid-template-columns:1fr 1fr}.rec-grid{grid-template-columns:1fr 1fr}.rec-actions{grid-template-columns:1fr}.modal-cover{height:210px}}@media(max-width:560px){.hero h1{font-size:1.85rem}.insight-grid,.rec-grid{grid-template-columns:1fr}.toggle{white-space:normal}.modal-content h2{font-size:1.45rem}}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand"><div class="logo-cube">◇</div><span>Umut<b>Melih</b>Akyol</span></div>
+    <div>
+      <div class="side-title">Ana Menü</div>
+      <nav class="nav-list">
+        <a href="index.html" class="nav-item"><span class="nav-icon">⌂</span><span class="nav-text">Ana Sayfa</span></a>
+        <a href="index.html#library" class="nav-item"><span class="nav-icon">🎮</span><span class="nav-text">Kütüphanem</span></a>
+        <a href="oneri-oyunlar.html" class="nav-item active"><span class="nav-icon">＋</span><span class="nav-text">Öneri Oyunlar</span></a>
+        <a href="https://www.technopat.net/sosyal/bolum/oyun-incelemeleri.150/?starter_id=84558&order=post_date&direction=desc" target="_blank" rel="noopener noreferrer" class="nav-item"><span class="nav-icon">☆</span><span class="nav-text">İncelemeler</span></a>
+      </nav>
+    </div>
+    <div>
+      <div class="side-title">Kategoriler</div>
+      <nav class="nav-list" id="genreNav"></nav>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="topbar">
+      <div class="search-wrap"><span class="search-ico">⌕</span><input id="recSearch" placeholder="Öneri oyun ara..."><span class="kbd">Ctrl K</span></div>
+      <label class="select-box"><span>Sırala</span><select id="sortSelect"><option value="match">Uyum puanı</option><option value="priority">Editör önceliği</option><option value="title">Alfabetik</option><option value="genre">Türe göre</option></select></label>
+      <label class="toggle"><input type="checkbox" id="hideOwned" checked> Kütüphanedekileri gizle</label>
+      <button class="action-btn" id="surpriseBtn" type="button">🎲 Sürpriz Seç</button>
+    </div>
+
+    <section class="hero">
+      <div>
+        <h1>Akıllı Öneriler</h1>
+        <p>Kütüphanedeki puan, tür ve platform eğilimlerine göre sıralanan oyun adayları.</p>
+      </div>
+      <a class="back-btn" href="index.html#library">← Kütüphaneye Dön</a>
+    </section>
+
+    <nav class="mobile-genres" id="mobileGenreNav"></nav>
+    <section class="insight-grid" id="insightGrid"></section>
+    <div class="rec-info" id="recInfo">Öneriler hazırlanıyor...</div>
+    <section class="rec-grid" id="recGrid"></section>
+  </main>
+</div>
+
+<div class="modal-backdrop" id="recModal" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-cover"><button class="modal-close" id="modalClose" type="button">✕</button><img id="modalCover" alt=""></div>
+    <div class="modal-content" id="modalContent"></div>
+  </div>
+</div>
+<div class="toast" id="toast">Başlık kopyalandı.</div>
+
+<script src="data/games.js"></script>
+<script src="data/recommendations.js"></script>
+<script>
+const recommendations = window.RECOMMENDATIONS || [];
+const libraryGames = window.GAMES || [];
+const state = {genre:'all', search:'', sort:'match', hideOwned:true};
+
+const splitTags = value => String(value || '').split(/[,·]/).map(item => item.trim()).filter(Boolean);
+const mainGenre = value => splitTags(value)[0] || 'Bilinmiyor';
+const xe = value => String(value ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+const normalize = value => String(value || '').toLocaleLowerCase('tr').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+const ownedTitles = new Set(libraryGames.map(game => normalize(game.title)));
+const ownedCount = recommendations.filter(rec => ownedTitles.has(normalize(rec.title))).length;
+
+function buildAffinity(){
+  const counts = {};
+  const topPlatform = Object.entries(libraryGames.reduce((acc, game) => {
+    const key = game.platform || 'Bilinmiyor';
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {})).sort((a,b) => b[1] - a[1])[0]?.[0] || 'PC';
+
+  libraryGames.forEach(game => {
+    const rating = Number(game.rating) || 0;
+    const weight = game.featured ? 3 : rating >= 9 ? 3 : rating >= 8 ? 2 : rating >= 7 ? 1 : 0.35;
+    splitTags(game.genre).forEach(tag => {
+      counts[tag] = (counts[tag] || 0) + weight;
+    });
+  });
+
+  const topTags = Object.entries(counts).sort((a,b) => b[1] - a[1]).slice(0,6).map(([name]) => name);
+  return {counts, topTags, topPlatform};
+}
+
+const affinity = buildAffinity();
+
+function recTags(rec){
+  return [...splitTags(rec.genre), ...(rec.tags || []), rec.tag, rec.mood].filter(Boolean);
+}
+
+function analyzeRecommendation(rec){
+  const tags = recTags(rec);
+  const owned = ownedTitles.has(normalize(rec.title));
+  const matchedTags = tags.filter(tag => affinity.counts[tag]);
+  const topMatched = [...new Set(matchedTags)].slice(0,3);
+  let score = 42 + (Number(rec.priority) || 70) / 5;
+  matchedTags.forEach(tag => { score += Math.min(18, affinity.counts[tag] * 2.2); });
+  if ((rec.platform || '').includes(affinity.topPlatform)) score += 8;
+  if (owned) score -= 45;
+  score = Math.max(32, Math.min(98, Math.round(score)));
+
+  const reasons = [];
+  if (topMatched.length) reasons.push(`${topMatched.join(', ')} sevenleri için`);
+  if ((rec.platform || '').includes(affinity.topPlatform)) reasons.push(`${affinity.topPlatform} `); // Platform yazısı
+  if (Number(rec.priority) >= 90) reasons.push('Öncelikli öneri');
+  if (!reasons.length) reasons.push('Kütüphaneyi farklılaştırır');
+
+  return {...rec, tags, owned, score, reasons};
+}
+
+function allScored(){
+  return recommendations.map(analyzeRecommendation);
+}
+
+function filteredRecommendations(){
+  const query = normalize(state.search);
+  let list = allScored().filter(rec => {
+    const genreOk = state.genre === 'all' || rec.tags.some(tag => normalize(tag) === normalize(state.genre));
+    const text = normalize([rec.title, rec.genre, rec.platform, rec.tag, rec.mood, rec.note, rec.tags.join(' ')].join(' '));
+    const searchOk = !query || text.includes(query);
+    const ownedOk = !state.hideOwned || !rec.owned;
+    return genreOk && searchOk && ownedOk;
+  });
+
+  list.sort((a,b) => {
+    if (state.sort === 'priority') return (Number(b.priority) || 0) - (Number(a.priority) || 0);
+    if (state.sort === 'title') return a.title.localeCompare(b.title, 'tr');
+    if (state.sort === 'genre') return mainGenre(a.genre).localeCompare(mainGenre(b.genre), 'tr') || b.score - a.score;
+    return b.score - a.score || (Number(b.priority) || 0) - (Number(a.priority) || 0);
+  });
+  return list;
+}
+
+function renderGenres(){
+  const counts = {};
+  allScored().forEach(rec => {
+    rec.tags.forEach(tag => counts[tag] = (counts[tag] || 0) + 1);
+  });
+  const entries = [['all', recommendations.length], ...Object.entries(counts).sort((a,b) => b[1] - a[1] || a[0].localeCompare(b[0], 'tr')).slice(0,14)];
+  const html = entries.map(([name,count]) => {
+    const label = name === 'all' ? 'Tümü' : name;
+    const active = state.genre === name || (state.genre === 'all' && name === 'all');
+    return `<button class="nav-item ${active ? 'active' : ''}" type="button" data-genre="${xe(name)}"><span class="nav-icon">${name === 'all' ? '☷' : '◇'}</span><span class="nav-text">${xe(label)}</span><span class="nav-count">${count}</span></button>`;
+  }).join('');
+  document.getElementById('genreNav').innerHTML = html;
+  document.getElementById('mobileGenreNav').innerHTML = html;
+}
+
+function renderInsights(list){
+  const top = list[0];
+  const dominantGenre = affinity.topTags[0] || 'RPG';
+  const avgScore = list.length ? Math.round(list.reduce((sum, rec) => sum + rec.score, 0) / list.length) : 0;
+  document.getElementById('insightGrid').innerHTML = [
+    ['En Güçlü Eşleşme', top ? top.title : 'Öneri yok', top ? `${top.score}/100 uyum • ${top.reasons[0]}` : 'Filtreleri temizleyince liste yeniden dolar.'],
+    ['Baskın Tür', dominantGenre, `${affinity.topTags.slice(0,3).join(', ') || 'Kütüphane verisi'} öne çıkıyor.`],
+    ['Ortalama Uyum', avgScore ? `${avgScore}/100` : '—', `${list.length} öneri hesaba katıldı.`],
+    ['Gizlenenler', `${state.hideOwned ? ownedCount : 0}`, 'Kütüphanede bulunan başlıklar.']
+  ].map(item => `<article class="insight"><small>${xe(item[0])}</small><b>${xe(item[1])}</b><span>${xe(item[2])}</span></article>`).join('');
+}
+
+function renderRecommendations(){
+  const list = filteredRecommendations();
+  renderGenres();
+  renderInsights(list);
+  document.getElementById('recInfo').textContent = `${list.length} öneri listeleniyor`;
+
+  if (!recommendations.length) {
+    document.getElementById('recGrid').innerHTML = '<div class="empty">Öneri verisi yüklenemedi.</div>';
+    return;
+  }
+  if (!list.length) {
+    document.getElementById('recGrid').innerHTML = '<div class="empty">Bu filtrelerle eşleşen öneri bulunamadı.</div>';
+    return;
+  }
+
+  document.getElementById('recGrid').innerHTML = list.map((rec, index) => {
+    const pills = [mainGenre(rec.genre), rec.platform, rec.tag].filter(Boolean).map(tag => `<span class="pill">${xe(tag)}</span>`).join('');
+    const reasons = rec.reasons.map(reason => `<span class="reason">${xe(reason)}</span>`).join('');
+    const image = rec.cover ? `<img src="${xe(rec.cover)}" alt="${xe(rec.title)}" loading="lazy" onerror="this.style.display='none';this.parentElement.classList.add('missing')">` : '';
+    return `<article class="rec-card">
+  <div class="rec-cover">${image}<span class="rec-score">${rec.score}/100</span>${rec.owned ? '<span class="owned-badge">Kütüphanede</span>' : ''}</div>
+  <div class="rec-body">
+    <h2 class="rec-title">${xe(rec.title)}</h2>
+    <div class="rec-meta">${pills}</div>
+    <p class="rec-note">${xe(rec.note)}</p>
+    <div class="reason-list">${reasons}</div>
+    <div class="rec-actions">
+      <a class="steam-btn" href="${xe(rec.steam)}" target="_blank" rel="noopener noreferrer">Sayfa</a>
+      <button class="detail-btn" type="button" data-open-rec="${index}">Detay</button>
+      <button class="copy-btn" type="button" data-copy-title="${xe(rec.title)}">Başlığı Kopyala</button>
+    </div>
+  </div>
+</article>`;
+  }).join('');
+}
+
+function openRecommendation(rec){
+  if (!rec) return;
+  document.getElementById('modalCover').src = rec.cover || '';
+  document.getElementById('modalContent').innerHTML = `<h2 id="modalTitle">${xe(rec.title)}</h2>
+    <div class="rec-meta"><span class="pill">${xe(mainGenre(rec.genre))}</span><span class="pill">${xe(rec.platform)}</span><span class="pill">${xe(rec.tag)}</span><span class="pill">${rec.score}/100 uyum</span></div>
+    <div class="reason-list">${rec.reasons.map(reason => `<span class="reason">${xe(reason)}</span>`).join('')}</div>
+    <div class="note-box">${xe(rec.note)}</div>
+    <div class="modal-actions"><a class="steam-btn" href="${xe(rec.steam)}" target="_blank" rel="noopener noreferrer">Sayfasına Git</a><button class="copy-btn" type="button" data-copy-title="${xe(rec.title)}">Başlığı Kopyala</button></div>`;
+  document.getElementById('recModal').classList.add('open');
+  document.getElementById('recModal').setAttribute('aria-hidden', 'false');
+}
+
+function closeModal(){
+  document.getElementById('recModal').classList.remove('open');
+  document.getElementById('recModal').setAttribute('aria-hidden', 'true');
+}
+
+function showToast(message){
+  const toast = document.getElementById('toast');
+  toast.textContent = message;
+  toast.classList.add('show');
+  setTimeout(() => toast.classList.remove('show'), 1600);
+}
+
+async function copyTitle(title){
+  try {
+    await navigator.clipboard.writeText(title);
+  } catch {
+    const input = document.createElement('textarea');
+    input.value = title;
+    input.setAttribute('readonly', '');
+    input.style.position = 'fixed';
+    input.style.opacity = '0';
+    document.body.appendChild(input);
+    input.select();
+    document.execCommand('copy');
+    input.remove();
+  }
+  showToast(`${title} kopyalandı.`);
+}
+
+function bindEvents(){
+  document.getElementById('recSearch').addEventListener('input', event => {
+    state.search = event.target.value;
+    renderRecommendations();
+  });
+  document.getElementById('sortSelect').addEventListener('change', event => {
+    state.sort = event.target.value;
+    renderRecommendations();
+  });
+  document.getElementById('hideOwned').addEventListener('change', event => {
+    state.hideOwned = event.target.checked;
+    renderRecommendations();
+  });
+  document.getElementById('surpriseBtn').addEventListener('click', () => {
+    const pool = filteredRecommendations().slice(0, 5);
+    openRecommendation(pool[Math.floor(Math.random() * pool.length)]);
+  });
+  document.addEventListener('click', event => {
+    const genreButton = event.target.closest('[data-genre]');
+    if (genreButton) {
+      state.genre = genreButton.dataset.genre;
+      renderRecommendations();
+      return;
+    }
+    const openButton = event.target.closest('[data-open-rec]');
+    if (openButton) {
+      openRecommendation(filteredRecommendations()[Number(openButton.dataset.openRec)]);
+      return;
+    }
+    const copyButton = event.target.closest('[data-copy-title]');
+    if (copyButton) copyTitle(copyButton.dataset.copyTitle);
+  });
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  document.getElementById('recModal').addEventListener('click', event => {
+    if (event.target.id === 'recModal') closeModal();
+  });
+  document.addEventListener('keydown', event => {
+    if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
+      event.preventDefault();
+      document.getElementById('recSearch').focus();
+    }
+    if (event.key === 'Escape') closeModal();
+  });
+}
+
+bindEvents();
+renderRecommendations();
+</script>
+</body>
+</html>

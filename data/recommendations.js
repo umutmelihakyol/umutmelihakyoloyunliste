@@ -1,0 +1,122 @@
+window.RECOMMENDATIONS = [
+  {
+    title: "Elden Ring",
+    cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/1245620/header.jpg",
+    genre: "Açık Dünya, RPG, Soulslike",
+    platform: "PC",
+    tag: "Zorlu ama ödüllendirici",
+    tags: ["Keşif", "Boss", "Fantastik", "Uzun soluklu"],
+    mood: "Meydan okuma",
+    priority: 96,
+    note: "Dünya tasarımı, keşif hissi ve boss çeşitliliğiyle kütüphaneye çok yakışacak bir oyun. Zorluk bazen sinir bozabilir ama her bölge merak uyandırıyor. RPG ve keşif seviyorsan uzun süre içine çeker.",
+    steam: "https://store.steampowered.com/app/1245620/ELDEN_RING/"
+  },
+  {
+    title: "Alan Wake 2",
+    cover: "https://cdn1.epicgames.com/offer/c4763f236d08423eb47b4c3008779c84/EGS_AlanWake2_RemedyEntertainment_S1_2560x1440-ec44404c0b41bc457cb94cd72cf85872",
+    genre: "Psikolojik Korku, Aksiyon-Macera",
+    platform: "PC",
+    tag: "Atmosfer odaklı",
+    tags: ["Korku", "Sinematik", "Dedektif", "Hikaye"],
+    mood: "Karanlık",
+    priority: 93,
+    note: "Korku, polisiye ve sinematik anlatımı güçlü bir şekilde birleştiriyor. Tempo herkese göre değil ama atmosferi, görsel dili ve hikaye sunumu çok güçlü. Karanlık ve gizemli oyunları seviyorsan güçlü bir aday.",
+    steam: "https://store.epicgames.com/p/alan-wake-2?lang=en-US"
+  },
+  {
+    title: "Baldur's Gate 3",
+    cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/1086940/header.jpg",
+    genre: "RPG, Sıra Tabanlı",
+    platform: "PC",
+    tag: "Seçim odaklı",
+    tags: ["Rol yapma", "Karar", "Parti", "Uzun soluklu"],
+    mood: "Derin",
+    priority: 95,
+    note: "Kararların gerçekten sonuç verdiği, karakterleri güçlü ve özgürlük hissi yüksek bir RPG. Sıra tabanlı sistem herkese hitap etmeyebilir ama rol yapma tarafında kütüphanenin en sağlam parçalarından biri olur.",
+    steam: "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+  },
+  {
+    title: "Ori and the Will of the Wisps",
+    cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/1057090/header.jpg",
+    genre: "Metroidvania, Platform",
+    platform: "PC",
+    tag: "Duygusal ve akıcı",
+    tags: ["Keşif", "Platform", "Duygusal", "Sanat"],
+    mood: "Akıcı",
+    priority: 88,
+    note: "Görsel tarzı, müzikleri ve akıcı hareket sistemiyle çok özel bir metroidvania. Zorlayıcı anları var ama oyun sürekli ilerleme hissi veriyor. Hem duygusal hem de mekanik olarak tatmin edici.",
+    steam: "https://store.steampowered.com/app/1057090/Ori_and_the_Will_of_the_Wisps/"
+  },
+  {
+    title: "Hi-Fi RUSH",
+    cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/1817230/header.jpg",
+    genre: "Aksiyon, Ritim",
+    platform: "PC",
+    tag: "Ritimli dövüş",
+    tags: ["Komedi", "Hack and Slash", "Kısa tempo", "Stil"],
+    mood: "Enerjik",
+    priority: 84,
+    note: "Ritim, mizah ve aksiyonu çok eğlenceli bir şekilde birleştiriyor. Oynanış sürekli canlı, karakterler renkli ve tempo hiç düşmüyor. Kafa dağıtmalık ama kaliteli bir aksiyon oyunu arıyorsan güzel tercih.",
+    steam: "https://store.steampowered.com/app/1817230/HiFi_RUSH/"
+  },
+  {
+    title: "Control Ultimate Edition",
+    cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/header.jpg",
+    genre: "Aksiyon-Macera, TPS",
+    platform: "PC",
+    tag: "Gizemli atmosfer",
+    tags: ["Paranormal", "Hikaye", "Aksiyon", "Remedy"],
+    mood: "Gizemli",
+    priority: 87,
+    note: "Bina tasarımı, paranormal atmosfer ve güç kullanımı çok iyi çalışıyor. Hikaye bilerek kapalı ilerliyor ama merak ettiriyor. Silah ve yetenek karışımı sayesinde oynanış da keyifli kalıyor.",
+    steam: "https://store.steampowered.com/app/870780/Control_Ultimate_Edition/"
+  },
+  {
+    title: "Hades",
+    cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/1145360/header.jpg",
+    genre: "Roguelike, Aksiyon",
+    platform: "PC",
+    tag: "Akıcı ve bağımlılık yapan",
+    tags: ["Mitoloji", "Tekrar oynanabilir", "Hızlı", "Karakter"],
+    mood: "Sürükleyici",
+    priority: 90,
+    note: "Her denemede biraz daha güçlenme hissi çok iyi verilmiş. Diyaloglar, müzikler ve dövüş temposu oyunu sürekli taze tutuyor. Roguelike türüne mesafeli olsan bile denemeye değer.",
+    steam: "https://store.steampowered.com/app/1145360/Hades/"
+  },
+  {
+    title: "Metro Exodus",
+    cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/412020/header.jpg",
+    genre: "FPS, Hayatta Kalma",
+    platform: "PC",
+    tag: "Atmosferik yolculuk",
+    tags: ["Kıyamet sonrası", "Gerilim", "Keşif", "Hikaye"],
+    mood: "Gerilimli",
+    priority: 82,
+    note: "Kıyamet sonrası atmosferi, silah hissi ve yarı açık bölüm yapısıyla güçlü bir FPS. Hikaye temposu zaman zaman ağırlaşsa da keşif, hayatta kalma ve gerilim tarafı çok iyi işliyor.",
+    steam: "https://store.steampowered.com/app/412020/Metro_Exodus/"
+  },
+  {
+    title: "Outer Wilds",
+    cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/753640/header.jpg",
+    genre: "Keşif, Bulmaca",
+    platform: "PC",
+    tag: "Bilgiyle ilerleyen",
+    tags: ["Uzay", "Merak", "Bulmaca", "Kısa ama yoğun"],
+    mood: "Merak",
+    priority: 91,
+    note: "Klasik ilerleme yerine bilgiyi merkeze alan çok özel bir keşif oyunu. Başta ne yaptığını anlamayabilirsin ama parçalar birleşince etkisi büyüyor. Merak duygusunu seven biri için unutulmaz olabilir.",
+    steam: "https://store.steampowered.com/app/753640/Outer_Wilds/"
+  },
+  {
+    title: "Ghostrunner 2",
+    cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/2144740/header.jpg",
+    genre: "Aksiyon, Platform",
+    platform: "PC",
+    tag: "Hızlı ve sert",
+    tags: ["Refleks", "Siberpunk", "Zor", "Kısa tempo"],
+    mood: "Hızlı",
+    priority: 78,
+    note: "Hız, refleks ve tek vuruş mantığı üzerine kurulu sert bir aksiyon oyunu. Hata affetmiyor ama akışa girince inanılmaz tatmin edici oluyor. Zorlayıcı ve tempolu oyun seviyorsan iyi gider.",
+    steam: "https://store.steampowered.com/app/2144740/Ghostrunner_2/"
+  }
+];
