@@ -420,18 +420,6 @@ window.RECOMMENDATIONS = [
   steam: "https://store.steampowered.com/app/361420/ASTRONEER/"
 },
 {
-  title: "Minecraft",
-  cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/000000/header.jpg",
-  genre: "Hayatta Kalma, Sandbox",
-  platform: "PC",
-  tag: "Sınırsız özgürlük",
-  tags: ["İnşa", "Craft", "Keşif", "Co-op"],
-  mood: "Yaratıcılık",
-  priority: 100,
-  note: "Hayatta kalma ve sandbox denince akla gelen ilk oyunlardan biri. İster dev yapılar inşa et ister maceraya atıl, sunduğu özgürlük sayesinde yıllardır popülerliğini koruyor.",
-  steam: "https://www.minecraft.net/"
-},
-{
   title: "Satisfactory",
   cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/526870/header.jpg",
   genre: "Hayatta Kalma, Fabrika Simülasyonu",
@@ -454,19 +442,7 @@ window.RECOMMENDATIONS = [
   priority: 93,
   note: "Bir gezegenden başlayıp yıldız sistemlerini kapsayan üretim ağları kurarak Dyson Küresi inşa etmeye çalışıyorsun. Otomasyon sevenler için vazgeçilmez yapımlardan biri.",
   steam: "https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/"
-},
-  {
-  title: "Half-Life 2",
-  cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/220/header.jpg",
-  genre: "FPS, Aksiyon",
-  platform: "PC",
-  tag: "FPS efsanesi",
-  tags: ["Hikâye", "Fizik", "Bilim Kurgu", "Tek Oyunculu"],
-  mood: "Macera",
-  priority: 100,
-  note: "FPS türünün en etkileyici yapımlarından biri. Hikâyesi, fizik tabanlı bulmacaları ve atmosferi sayesinde yıllar geçmesine rağmen hâlâ oynanması gereken klasikler arasında yer alıyor.",
-  steam: "https://store.steampowered.com/app/220/HalfLife_2/"
-},
+},  
 {
   title: "Titanfall 2",
   cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/1237970/header.jpg",
